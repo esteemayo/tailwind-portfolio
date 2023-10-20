@@ -4,9 +4,12 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        "sm": "480px"
+        "sm": "480px",
       }
     },
+    fontFamily: {
+      nunito: ['Nunito', 'sans-serif'],
+    }
   },
   plugins: [],
 }
