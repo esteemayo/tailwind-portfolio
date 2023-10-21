@@ -29,11 +29,13 @@ formEl.addEventListener('submit', (e) => {
   const email = document.querySelector('#email').value;
   const message = document.querySelector('#message').value;
 
-  console.log({ name, email, message });
+  if (name.trim() !== '' && email.trim() !== '' && message.trim() !== '') {
+    console.log({ name, email, message });
 
-  document.querySelector('#name').value = '';
-  document.querySelector('#email').value = '';
-  document.querySelector('#message').value = '';
+    document.querySelector('#name').value = '';
+    document.querySelector('#email').value = '';
+    document.querySelector('#message').value = '';
+  }
 });
 
 copyrightEl.textContent = new Date().getFullYear();
