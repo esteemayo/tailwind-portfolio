@@ -1169,6 +1169,10 @@ video {
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
+  .dark\:caret-white {
+    caret-color: #fff;
+  }
+
   .dark\:shadow-slate-800 {
     --tw-shadow-color: #1e293b;
     --tw-shadow: var(--tw-shadow-colored);
