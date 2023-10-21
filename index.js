@@ -2,7 +2,7 @@ const hamburger = document.querySelector('#hamburger');
 const menu = document.querySelector('#menu');
 const links = document.querySelectorAll('#link');
 const body = document.querySelector('body');
-const formEl = document.querySelector('#contact');
+const formEl = document.querySelector('#contact-form');
 const moon = document.querySelector('#moon');
 const copyrightEl = document.querySelector('#copyright');
 
