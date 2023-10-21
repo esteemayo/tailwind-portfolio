@@ -660,6 +660,10 @@ video {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -1072,6 +1076,10 @@ video {
 
 .outline-gray-300 {
   outline-color: #d1d5db;
+}
+
+.outline-indigo-400 {
+  outline-color: #818cf8;
 }
 
 .ring-1 {
