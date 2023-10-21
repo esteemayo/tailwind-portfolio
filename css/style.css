@@ -762,6 +762,10 @@ video {
   cursor: pointer;
 }
 
+.resize-none {
+  resize: none;
+}
+
 .list-none {
   list-style-type: none;
 }
@@ -1038,6 +1042,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.caret-indigo-600 {
+  caret-color: #4f46e5;
 }
 
 .shadow-lg {
