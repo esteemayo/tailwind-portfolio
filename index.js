@@ -24,6 +24,16 @@ moon.addEventListener('click', () => {
 
 formEl.addEventListener('submit', (e) => {
   e.preventDefault();
+
+  const name = document.querySelector('#name').value;
+  const email = document.querySelector('#email').value;
+  const message = document.querySelector('#message').value;
+
+  console.log({ name, email, message });
+
+  document.querySelector('#name').value = '';
+  document.querySelector('#email').value = '';
+  document.querySelector('#message').value = '';
 });
 
 copyrightEl.textContent = new Date().getFullYear();
