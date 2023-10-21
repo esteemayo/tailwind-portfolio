@@ -1245,6 +1245,10 @@ video {
     width: 20%;
   }
 
+  .lg\:w-\[800px\] {
+    width: 800px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1253,6 +1257,18 @@ video {
 @media (min-width: 1280px) {
   .xl\:left-48 {
     left: 12rem;
+  }
+
+  .xl\:w-\[800px\] {
+    width: 800px;
+  }
+
+  .xl\:w-\[1000px\] {
+    width: 1000px;
+  }
+
+  .xl\:w-\[1200px\] {
+    width: 1200px;
   }
 
   .xl\:text-7xl {
